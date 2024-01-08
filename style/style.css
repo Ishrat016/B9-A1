@@ -24,7 +24,7 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    top:0;
+    top: 0;
     padding: 0;
 }
 
@@ -36,21 +36,24 @@
     font-weight: 700;
     padding: 0;
 }
+
 .banner-image {
     border-radius: 10px;
     padding: 80px;
     margin-bottom: 0;
 }
+
 .ban {
-  margin: 0;
-  padding-top: px;
-  top: 0;
-  display: block;
+    margin: 0;
+    padding-top: px;
+    top: 0;
+    display: block;
 
 }
+
 /* sale relate  */
 .new-years {
-    color: #190236;
+    color: #e7e5eb;
     text-align: center;
     font-family: Merriweather;
     font-size: 50px;
@@ -58,13 +61,14 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .categories {
-    color: #011b06d8;
+    color: #e5f0e7d8;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-     padding: 0;
-     margin:0;
+    padding: 0;
+    margin: 0;
     font-weight: 900;
     line-height: 95px;
 }
@@ -74,6 +78,48 @@
     height: 500px;
     flex-shrink: 0;
     text-align: centre;
-    padding: 500px;
+    padding: 600px 1800px;
+    margin: center;
+}
 
+/* party side */
+.party-side {
+    display: flex;
+    background-image: url(Vectorrr.png);
+    background-size: cover;
+    background-position: 0%;
+    padding-block: 0px;
+
+}
+
+.party-title {
+    color: #c5bebe;
+    font-family: Merriweather;
+    font-size: 300px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 8px;
+    padding: 100px;
+    justify-content: left;
+}
+
+.group-70 {
+    justify-content: center;
+    flex-shrink: 50;
+    text-align: right;
+    padding-left: 3200px;
+    font-size: 500px;
+    border: 320px 465px;
+    block-size: 1300px;
+}
+
+.party-btn {
+    color: #161515;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }

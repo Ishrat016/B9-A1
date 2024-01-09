@@ -228,7 +228,6 @@
 .shopping-pic{
 display: flex;
 gap:50px;
-
 }
 
 .rec-5 {
@@ -241,4 +240,58 @@ gap:50px;
     justify-content: center;
     block-size: 1300px;
     padding: 10px;
+}
+
+.subcrib{
+    padding:200px;
+    justify-content: center;
+    text-align: center;
+    background:burlywood;
+    margin:150px;
+}
+.grp-61{
+    flex-shrink: 550;
+    padding:10px;
+    align-items: left;
+    block-size: 1300px;
+} 
+.sub-sec{
+    justify-content: center;
+    font-size: 300px;
+}
+.name {  justify-content: center;
+    block-size: 1300px;}
+.sub-btn{
+    background: #F00;
+    block-size: 300px;
+    font-size: 200px;
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+/* footer */
+.footer{
+    padding:200px;
+    justify-content: center;
+    text-align: center;
+    background:rgb(4, 7, 185);
+    margin:150px;
+}
+.footer-title{
+    color: #FFF;
+font-family: Inter;
+font-size: 100px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+}
+.footer-image{
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+    size: 200px;
+flex-shrink: 0;
 }

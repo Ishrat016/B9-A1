@@ -3,7 +3,7 @@
     padding: 0%;
     text-align: center;
     font-family: Merriweather;
-    font-size: 25px;
+    font-size: 500px;
     height: 300px;
     background-image: url("Banner Image.png") background-repeat:-moz-radial-gradient(none)
 }
@@ -12,7 +12,7 @@
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 88px;
+    font-size: 200px;
     font-weight: 700;
     bottom: 0;
     padding: 0;
@@ -22,7 +22,7 @@
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 100px;
     font-weight: 500;
     top: 0;
     padding: 0;
@@ -38,9 +38,11 @@
 }
 
 .banner-image {
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 80px;
     margin-bottom: 0;
+    font-size: 500px;
+    block-size: 1000px;
 }
 
 .ban {
@@ -53,22 +55,20 @@
 
 /* sale relate  */
 .new-years {
-    color: #e7e5eb;
+    color: #c6da17;
     text-align: center;
     font-family: Merriweather;
-    font-size: 50px;
+    font-size: 150px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .categories {
-    color: #e5f0e7d8;
+    color: #9b0550d8;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
-    padding: 0;
-    margin: 0;
+    font-size: 100px;
     font-weight: 900;
     line-height: 95px;
 }
@@ -78,8 +78,11 @@
     height: 500px;
     flex-shrink: 0;
     text-align: centre;
-    padding: 600px 1800px;
+    padding: 1100px 1800px;
+    padding-bottom: 300px;
     margin: center;
+    font-size: 300px;
+    block-size: 600px;
 }
 
 /* party side */
@@ -108,7 +111,7 @@
     flex-shrink: 50;
     text-align: right;
     padding-left: 3200px;
-    font-size: 500px;
+    font-size: 700px;
     border: 320px 465px;
     block-size: 1300px;
 }
@@ -122,4 +125,120 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.Place {
+    color: rgb(19, 18, 18);
+    text-align: center;
+    font-family: Inter;
+    text-transform: capitalize;
+    padding-left: 300px;
+    block-size: 500px;
+    font-size: 100px;
+    border-radius: 200px;
+    padding: 600px;
+    background: burlywood;
+    margin: 150px;
+}
+
+.place-btn {
+    background: #F00;
+    block-size: 300px;
+    font-size: 200px;
+    border-radius: 200px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: azure;
+}
+
+.shopping {}
+
+.gift {
+    color: #eb0606;
+    font-family: Merriweather;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.port {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.first-pic {
+    justify-content: left;
+    flex-shrink: 50;
+    text-align: lift;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rec-3 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
+}
+
+.rec-6 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
+}
+
+.second-pic {
+    justify-content: center;
+    flex-shrink: 50;
+    text-align: center;
+    padding:10px;
+    align-items: left;
+
+}
+
+.rec-4 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.rec-7 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.third-pic {
+    justify-content: right;
+    flex-shrink: 50;
+    text-align: right;
+    padding:10px;
+    align-items: centre;
+}
+.shopping-pic{
+display: flex;
+gap:50px;
+
+}
+
+.rec-5 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
+}
+
+.rec-8 {
+    justify-content: center;
+    block-size: 1300px;
+    padding: 10px;
 }
